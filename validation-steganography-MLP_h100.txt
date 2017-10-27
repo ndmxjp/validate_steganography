@@ -1,0 +1,495 @@
+average_accuracy = run(
+    # svm.SVC(random_state=3290),
+    sklearn.neural_network.MLPClassifier(hidden_layer_sizes = (100,)),
+    features,
+    labels,
+    title="MLP - %s" % algorithm,
+    random_state=101
+)
+
+Loading(0.1)...
+Loaded!
+len(features): 10858
+====== MLP - f5 ======
+Train Accuracy: 0.501126 Test Accuracy: 0.502762
+Train Accuracy: 0.512382 Test Accuracy: 0.505525
+Train Accuracy: 0.519341 Test Accuracy: 0.491713
+Train Accuracy: 0.499079 Test Accuracy: 0.511971
+Train Accuracy: 0.499488 Test Accuracy: 0.505525
+Train Accuracy: 0.502354 Test Accuracy: 0.480663
+Train Accuracy: 0.506038 Test Accuracy: 0.489871
+Train Accuracy: 0.523946 Test Accuracy: 0.522099
+Train Accuracy: 0.520516 Test Accuracy: 0.521659
+Train Accuracy: 0.501586 Test Accuracy: 0.485714
+[MLP - f5] Average Train Accuracy: 0.508586
+[MLP - f5] Average Test Accuracy: 0.501750
+Loading(0.2)...
+Loaded!
+len(features): 10858
+====== MLP - f5 ======
+Train Accuracy: 0.603152 Test Accuracy: 0.586556
+Train Accuracy: 0.595989 Test Accuracy: 0.568140
+Train Accuracy: 0.603152 Test Accuracy: 0.561694
+Train Accuracy: 0.599673 Test Accuracy: 0.555249
+Train Accuracy: 0.603971 Test Accuracy: 0.575506
+Train Accuracy: 0.601208 Test Accuracy: 0.543278
+Train Accuracy: 0.600389 Test Accuracy: 0.559853
+Train Accuracy: 0.590360 Test Accuracy: 0.579190
+Train Accuracy: 0.565231 Test Accuracy: 0.556682
+Train Accuracy: 0.589481 Test Accuracy: 0.569585
+[MLP - f5] Average Train Accuracy: 0.595260
+[MLP - f5] Average Test Accuracy: 0.565573
+Loading(0.3)...
+Loaded!
+len(features): 10858
+====== MLP - f5 ======
+Train Accuracy: 0.655444 Test Accuracy: 0.654696
+Train Accuracy: 0.650634 Test Accuracy: 0.635359
+Train Accuracy: 0.653602 Test Accuracy: 0.628913
+Train Accuracy: 0.656979 Test Accuracy: 0.609576
+Train Accuracy: 0.660765 Test Accuracy: 0.647330
+Train Accuracy: 0.657388 Test Accuracy: 0.595764
+Train Accuracy: 0.656160 Test Accuracy: 0.613260
+Train Accuracy: 0.650839 Test Accuracy: 0.646409
+Train Accuracy: 0.650773 Test Accuracy: 0.644240
+Train Accuracy: 0.654865 Test Accuracy: 0.631336
+[MLP - f5] Average Train Accuracy: 0.654745
+[MLP - f5] Average Test Accuracy: 0.630688
+Loading(0.4)...
+Loaded!
+len(features): 10858
+====== MLP - f5 ======
+Train Accuracy: 0.716537 Test Accuracy: 0.710866
+Train Accuracy: 0.703643 Test Accuracy: 0.676796
+Train Accuracy: 0.709681 Test Accuracy: 0.689687
+Train Accuracy: 0.697094 Test Accuracy: 0.652855
+Train Accuracy: 0.690033 Test Accuracy: 0.674033
+Train Accuracy: 0.707020 Test Accuracy: 0.668508
+Train Accuracy: 0.712444 Test Accuracy: 0.681400
+Train Accuracy: 0.712751 Test Accuracy: 0.703499
+Train Accuracy: 0.688120 Test Accuracy: 0.697696
+Train Accuracy: 0.716771 Test Accuracy: 0.708756
+[MLP - f5] Average Train Accuracy: 0.705409
+[MLP - f5] Average Test Accuracy: 0.686409
+Loading(0.5)...
+Loaded!
+len(features): 10858
+====== MLP - f5 ======
+Train Accuracy: 0.754912 Test Accuracy: 0.736648
+Train Accuracy: 0.751944 Test Accuracy: 0.717311
+Train Accuracy: 0.762689 Test Accuracy: 0.729282
+Train Accuracy: 0.753582 Test Accuracy: 0.711786
+Train Accuracy: 0.749898 Test Accuracy: 0.739411
+Train Accuracy: 0.752251 Test Accuracy: 0.726519
+Train Accuracy: 0.758903 Test Accuracy: 0.728361
+Train Accuracy: 0.755219 Test Accuracy: 0.749540
+Train Accuracy: 0.771616 Test Accuracy: 0.735484
+Train Accuracy: 0.766602 Test Accuracy: 0.736406
+[MLP - f5] Average Train Accuracy: 0.757762
+[MLP - f5] Average Test Accuracy: 0.731075
+Loading(0.6)...
+Loaded!
+len(features): 10858
+====== MLP - f5 ======
+Train Accuracy: 0.811093 Test Accuracy: 0.802947
+Train Accuracy: 0.793901 Test Accuracy: 0.769797
+Train Accuracy: 0.804339 Test Accuracy: 0.792818
+Train Accuracy: 0.807921 Test Accuracy: 0.773481
+Train Accuracy: 0.800450 Test Accuracy: 0.777164
+Train Accuracy: 0.801985 Test Accuracy: 0.768877
+Train Accuracy: 0.808228 Test Accuracy: 0.769797
+Train Accuracy: 0.790831 Test Accuracy: 0.787293
+Train Accuracy: 0.810498 Test Accuracy: 0.792627
+Train Accuracy: 0.813773 Test Accuracy: 0.780645
+[MLP - f5] Average Train Accuracy: 0.804302
+[MLP - f5] Average Test Accuracy: 0.781545
+Loading(0.7)...
+Loaded!
+len(features): 10858
+====== MLP - f5 ======
+Train Accuracy: 0.819689 Test Accuracy: 0.813996
+Train Accuracy: 0.840872 Test Accuracy: 0.814917
+Train Accuracy: 0.833095 Test Accuracy: 0.804788
+Train Accuracy: 0.829922 Test Accuracy: 0.818600
+Train Accuracy: 0.809558 Test Accuracy: 0.793738
+Train Accuracy: 0.846603 Test Accuracy: 0.813996
+Train Accuracy: 0.844863 Test Accuracy: 0.802947
+Train Accuracy: 0.841793 Test Accuracy: 0.839779
+Train Accuracy: 0.851018 Test Accuracy: 0.816590
+Train Accuracy: 0.832702 Test Accuracy: 0.819355
+[MLP - f5] Average Train Accuracy: 0.835011
+[MLP - f5] Average Test Accuracy: 0.813871
+Loading(0.8)...
+Loaded!
+len(features): 10858
+====== MLP - f5 ======
+Train Accuracy: 0.867888 Test Accuracy: 0.858195
+Train Accuracy: 0.874130 Test Accuracy: 0.850829
+Train Accuracy: 0.875767 Test Accuracy: 0.848987
+Train Accuracy: 0.874437 Test Accuracy: 0.857274
+Train Accuracy: 0.870958 Test Accuracy: 0.858195
+Train Accuracy: 0.873414 Test Accuracy: 0.834254
+Train Accuracy: 0.878019 Test Accuracy: 0.846225
+Train Accuracy: 0.870037 Test Accuracy: 0.856354
+Train Accuracy: 0.865753 Test Accuracy: 0.851613
+Train Accuracy: 0.871073 Test Accuracy: 0.843318
+[MLP - f5] Average Train Accuracy: 0.872148
+[MLP - f5] Average Test Accuracy: 0.850524
+Loading(0.9)...
+Loaded!
+len(features): 10858
+====== MLP - f5 ======
+Train Accuracy: 0.892652 Test Accuracy: 0.888582
+Train Accuracy: 0.890606 Test Accuracy: 0.863720
+Train Accuracy: 0.888252 Test Accuracy: 0.852670
+Train Accuracy: 0.886819 Test Accuracy: 0.876611
+Train Accuracy: 0.892652 Test Accuracy: 0.875691
+Train Accuracy: 0.894904 Test Accuracy: 0.874770
+Train Accuracy: 0.893676 Test Accuracy: 0.860958
+Train Accuracy: 0.888968 Test Accuracy: 0.883057
+Train Accuracy: 0.888571 Test Accuracy: 0.865438
+Train Accuracy: 0.887854 Test Accuracy: 0.863594
+[MLP - f5] Average Train Accuracy: 0.890496
+[MLP - f5] Average Test Accuracy: 0.870509
+Loading(1.0)...
+Loaded!
+len(features): 10858
+====== MLP - f5 ======
+Train Accuracy: 0.909537 Test Accuracy: 0.896869
+Train Accuracy: 0.901658 Test Accuracy: 0.875691
+Train Accuracy: 0.908923 Test Accuracy: 0.882136
+Train Accuracy: 0.904728 Test Accuracy: 0.892265
+Train Accuracy: 0.908105 Test Accuracy: 0.892265
+Train Accuracy: 0.908002 Test Accuracy: 0.879374
+Train Accuracy: 0.907184 Test Accuracy: 0.881215
+Train Accuracy: 0.903704 Test Accuracy: 0.894107
+Train Accuracy: 0.907398 Test Accuracy: 0.883871
+Train Accuracy: 0.902793 Test Accuracy: 0.886636
+[MLP - f5] Average Train Accuracy: 0.906203
+[MLP - f5] Average Test Accuracy: 0.886443
+[0.10000000000000001, 0.20000000000000001, 0.29999999999999999, 0.40000000000000002, 0.5, 0.59999999999999998, 0.69999999999999996, 0.80000000000000004, 0.90000000000000002, 1.0]
+[0.50175021853332313, 0.56557332111244074, 0.63068835875109264, 0.68640943385017528, 0.73107475961334445, 0.78154450017397792, 0.81387071314000536, 0.85052439510824818, 0.87050911899245542, 0.88644295643760973]
+Loading(0.1)...
+Loaded!
+len(features): 10826
+====== MLP - jstego ======
+Train Accuracy: 0.650621 Test Accuracy: 0.623269
+Train Accuracy: 0.666222 Test Accuracy: 0.631579
+Train Accuracy: 0.663348 Test Accuracy: 0.627886
+Train Accuracy: 0.669301 Test Accuracy: 0.631579
+Train Accuracy: 0.644976 Test Accuracy: 0.625115
+Train Accuracy: 0.669404 Test Accuracy: 0.626039
+Train Accuracy: 0.669643 Test Accuracy: 0.643253
+Train Accuracy: 0.665025 Test Accuracy: 0.639556
+Train Accuracy: 0.662356 Test Accuracy: 0.663586
+Train Accuracy: 0.654557 Test Accuracy: 0.605360
+[MLP - jstego] Average Train Accuracy: 0.661545
+[MLP - jstego] Average Test Accuracy: 0.631722
+Loading(0.2)...
+Loaded!
+len(features): 10826
+====== MLP - jstego ======
+Train Accuracy: 0.900031 Test Accuracy: 0.872576
+Train Accuracy: 0.894386 Test Accuracy: 0.871653
+Train Accuracy: 0.887920 Test Accuracy: 0.861496
+Train Accuracy: 0.895309 Test Accuracy: 0.874423
+Train Accuracy: 0.893873 Test Accuracy: 0.872576
+Train Accuracy: 0.886791 Test Accuracy: 0.860572
+Train Accuracy: 0.896039 Test Accuracy: 0.876155
+Train Accuracy: 0.875205 Test Accuracy: 0.853050
+Train Accuracy: 0.891420 Test Accuracy: 0.880776
+Train Accuracy: 0.902094 Test Accuracy: 0.878004
+[MLP - jstego] Average Train Accuracy: 0.892307
+[MLP - jstego] Average Test Accuracy: 0.870128
+Loading(0.3)...
+Loaded!
+len(features): 10826
+====== MLP - jstego ======
+Train Accuracy: 0.945807 Test Accuracy: 0.927978
+Train Accuracy: 0.951350 Test Accuracy: 0.922438
+Train Accuracy: 0.942625 Test Accuracy: 0.932595
+Train Accuracy: 0.948168 Test Accuracy: 0.926131
+Train Accuracy: 0.941496 Test Accuracy: 0.923361
+Train Accuracy: 0.949194 Test Accuracy: 0.926131
+Train Accuracy: 0.947250 Test Accuracy: 0.936229
+Train Accuracy: 0.939553 Test Accuracy: 0.924214
+Train Accuracy: 0.950226 Test Accuracy: 0.935305
+Train Accuracy: 0.949405 Test Accuracy: 0.927911
+[MLP - jstego] Average Train Accuracy: 0.946507
+[MLP - jstego] Average Test Accuracy: 0.928229
+Loading(0.4)...
+Loaded!
+len(features): 10826
+====== MLP - jstego ======
+Train Accuracy: 0.963564 Test Accuracy: 0.947368
+Train Accuracy: 0.964795 Test Accuracy: 0.946445
+Train Accuracy: 0.963358 Test Accuracy: 0.953832
+Train Accuracy: 0.966848 Test Accuracy: 0.949215
+Train Accuracy: 0.962640 Test Accuracy: 0.951985
+Train Accuracy: 0.964693 Test Accuracy: 0.953832
+Train Accuracy: 0.963978 Test Accuracy: 0.946396
+Train Accuracy: 0.967159 Test Accuracy: 0.951017
+Train Accuracy: 0.963465 Test Accuracy: 0.951941
+Train Accuracy: 0.963259 Test Accuracy: 0.952865
+[MLP - jstego] Average Train Accuracy: 0.964376
+[MLP - jstego] Average Test Accuracy: 0.950490
+Loading(0.5)...
+Loaded!
+len(features): 10826
+====== MLP - jstego ======
+Train Accuracy: 0.972904 Test Accuracy: 0.955679
+Train Accuracy: 0.972698 Test Accuracy: 0.960295
+Train Accuracy: 0.975675 Test Accuracy: 0.961219
+Train Accuracy: 0.973212 Test Accuracy: 0.962142
+Train Accuracy: 0.971980 Test Accuracy: 0.960295
+Train Accuracy: 0.970748 Test Accuracy: 0.964912
+Train Accuracy: 0.974651 Test Accuracy: 0.960259
+Train Accuracy: 0.973727 Test Accuracy: 0.960259
+Train Accuracy: 0.975472 Test Accuracy: 0.954713
+Train Accuracy: 0.973625 Test Accuracy: 0.956562
+[MLP - jstego] Average Train Accuracy: 0.973469
+[MLP - jstego] Average Test Accuracy: 0.959634
+Loading(0.6)...
+Loaded!
+len(features): 10826
+====== MLP - jstego ======
+Train Accuracy: 0.975777 Test Accuracy: 0.965836
+Train Accuracy: 0.977214 Test Accuracy: 0.967682
+Train Accuracy: 0.977317 Test Accuracy: 0.961219
+Train Accuracy: 0.975264 Test Accuracy: 0.971376
+Train Accuracy: 0.976496 Test Accuracy: 0.962142
+Train Accuracy: 0.977728 Test Accuracy: 0.968606
+Train Accuracy: 0.978448 Test Accuracy: 0.967652
+Train Accuracy: 0.981322 Test Accuracy: 0.968577
+Train Accuracy: 0.978038 Test Accuracy: 0.963031
+Train Accuracy: 0.979988 Test Accuracy: 0.963956
+[MLP - jstego] Average Train Accuracy: 0.977759
+[MLP - jstego] Average Test Accuracy: 0.966008
+Loading(0.7)...
+Loaded!
+len(features): 10826
+====== MLP - jstego ======
+Train Accuracy: 0.982962 Test Accuracy: 0.966759
+Train Accuracy: 0.979780 Test Accuracy: 0.970452
+Train Accuracy: 0.983475 Test Accuracy: 0.966759
+Train Accuracy: 0.982449 Test Accuracy: 0.967682
+Train Accuracy: 0.984912 Test Accuracy: 0.967682
+Train Accuracy: 0.981730 Test Accuracy: 0.973223
+Train Accuracy: 0.977627 Test Accuracy: 0.973198
+Train Accuracy: 0.980911 Test Accuracy: 0.975046
+Train Accuracy: 0.981938 Test Accuracy: 0.966728
+Train Accuracy: 0.981219 Test Accuracy: 0.963031
+[MLP - jstego] Average Train Accuracy: 0.981700
+[MLP - jstego] Average Test Accuracy: 0.969056
+Loading(0.8)...
+Loaded!
+len(features): 10826
+====== MLP - jstego ======
+Train Accuracy: 0.984399 Test Accuracy: 0.966759
+Train Accuracy: 0.982962 Test Accuracy: 0.976916
+Train Accuracy: 0.982962 Test Accuracy: 0.969529
+Train Accuracy: 0.982346 Test Accuracy: 0.970452
+Train Accuracy: 0.982757 Test Accuracy: 0.970452
+Train Accuracy: 0.982552 Test Accuracy: 0.976916
+Train Accuracy: 0.983682 Test Accuracy: 0.972274
+Train Accuracy: 0.982143 Test Accuracy: 0.975970
+Train Accuracy: 0.984811 Test Accuracy: 0.967652
+Train Accuracy: 0.984503 Test Accuracy: 0.967652
+[MLP - jstego] Average Train Accuracy: 0.983312
+[MLP - jstego] Average Test Accuracy: 0.971457
+Loading(0.9)...
+Loaded!
+len(features): 10826
+====== MLP - jstego ======
+Train Accuracy: 0.984604 Test Accuracy: 0.969529
+Train Accuracy: 0.985836 Test Accuracy: 0.978763
+Train Accuracy: 0.983783 Test Accuracy: 0.975069
+Train Accuracy: 0.986862 Test Accuracy: 0.970452
+Train Accuracy: 0.985425 Test Accuracy: 0.970452
+Train Accuracy: 0.985631 Test Accuracy: 0.975993
+Train Accuracy: 0.983682 Test Accuracy: 0.975046
+Train Accuracy: 0.986761 Test Accuracy: 0.975970
+Train Accuracy: 0.983272 Test Accuracy: 0.970425
+Train Accuracy: 0.983374 Test Accuracy: 0.966728
+[MLP - jstego] Average Train Accuracy: 0.984923
+[MLP - jstego] Average Test Accuracy: 0.972843
+Loading(1.0)...
+Loaded!
+len(features): 10826
+====== MLP - jstego ======
+Train Accuracy: 0.986144 Test Accuracy: 0.973223
+Train Accuracy: 0.984604 Test Accuracy: 0.980609
+Train Accuracy: 0.986965 Test Accuracy: 0.975069
+Train Accuracy: 0.983270 Test Accuracy: 0.969529
+Train Accuracy: 0.985015 Test Accuracy: 0.973223
+Train Accuracy: 0.985836 Test Accuracy: 0.978763
+Train Accuracy: 0.985324 Test Accuracy: 0.975970
+Train Accuracy: 0.984709 Test Accuracy: 0.976895
+Train Accuracy: 0.987172 Test Accuracy: 0.970425
+Train Accuracy: 0.985324 Test Accuracy: 0.969501
+[MLP - jstego] Average Train Accuracy: 0.985436
+[MLP - jstego] Average Test Accuracy: 0.974321
+[0.10000000000000001, 0.20000000000000001, 0.29999999999999999, 0.40000000000000002, 0.5, 0.59999999999999998, 0.69999999999999996, 0.80000000000000004, 0.90000000000000002, 1.0]
+[0.63172223047159681, 0.87012816114612834, 0.92822933147637077, 0.95048958616016654, 0.95963359122585135, 0.96600768386575953, 0.96905614069223067, 0.97145739141120635, 0.97284285965424311, 0.97432066400069639]
+Loading(0.1)...
+Loaded!
+len(features): 10858
+====== MLP - outguess ======
+Train Accuracy: 0.871777 Test Accuracy: 0.850829
+Train Accuracy: 0.864102 Test Accuracy: 0.815838
+Train Accuracy: 0.866967 Test Accuracy: 0.830571
+Train Accuracy: 0.844351 Test Accuracy: 0.827808
+Train Accuracy: 0.870753 Test Accuracy: 0.848066
+Train Accuracy: 0.862362 Test Accuracy: 0.834254
+Train Accuracy: 0.850594 Test Accuracy: 0.830571
+Train Accuracy: 0.866660 Test Accuracy: 0.845304
+Train Accuracy: 0.868618 Test Accuracy: 0.843318
+Train Accuracy: 0.854190 Test Accuracy: 0.835023
+[MLP - outguess] Average Train Accuracy: 0.862037
+[MLP - outguess] Average Test Accuracy: 0.836158
+Loading(0.2)...
+Loaded!
+len(features): 10858
+====== MLP - outguess ======
+Train Accuracy: 0.938498 Test Accuracy: 0.925414
+Train Accuracy: 0.948219 Test Accuracy: 0.931860
+Train Accuracy: 0.940544 Test Accuracy: 0.915285
+Train Accuracy: 0.944535 Test Accuracy: 0.925414
+Train Accuracy: 0.944331 Test Accuracy: 0.939227
+Train Accuracy: 0.949550 Test Accuracy: 0.918048
+Train Accuracy: 0.946889 Test Accuracy: 0.934622
+Train Accuracy: 0.947094 Test Accuracy: 0.930018
+Train Accuracy: 0.946076 Test Accuracy: 0.928111
+Train Accuracy: 0.948839 Test Accuracy: 0.920737
+[MLP - outguess] Average Train Accuracy: 0.945457
+[MLP - outguess] Average Test Accuracy: 0.926874
+Loading(0.3)...
+Loaded!
+len(features): 10858
+====== MLP - outguess ======
+Train Accuracy: 0.965821 Test Accuracy: 0.941989
+Train Accuracy: 0.966639 Test Accuracy: 0.941989
+Train Accuracy: 0.969198 Test Accuracy: 0.931860
+Train Accuracy: 0.965104 Test Accuracy: 0.953959
+Train Accuracy: 0.963672 Test Accuracy: 0.946593
+Train Accuracy: 0.965821 Test Accuracy: 0.942910
+Train Accuracy: 0.963774 Test Accuracy: 0.948435
+Train Accuracy: 0.967560 Test Accuracy: 0.953039
+Train Accuracy: 0.965517 Test Accuracy: 0.946544
+Train Accuracy: 0.967461 Test Accuracy: 0.942857
+[MLP - outguess] Average Train Accuracy: 0.966057
+[MLP - outguess] Average Test Accuracy: 0.945017
+Loading(0.4)...
+Loaded!
+len(features): 10858
+====== MLP - outguess ======
+Train Accuracy: 0.973189 Test Accuracy: 0.955801
+Train Accuracy: 0.970426 Test Accuracy: 0.956722
+Train Accuracy: 0.971449 Test Accuracy: 0.950276
+Train Accuracy: 0.971347 Test Accuracy: 0.963168
+Train Accuracy: 0.968584 Test Accuracy: 0.956722
+Train Accuracy: 0.972882 Test Accuracy: 0.952118
+Train Accuracy: 0.969607 Test Accuracy: 0.962247
+Train Accuracy: 0.975338 Test Accuracy: 0.958564
+Train Accuracy: 0.969406 Test Accuracy: 0.962212
+Train Accuracy: 0.972987 Test Accuracy: 0.951152
+[MLP - outguess] Average Train Accuracy: 0.971521
+[MLP - outguess] Average Test Accuracy: 0.956898
+Loading(0.5)...
+Loaded!
+len(features): 10858
+====== MLP - outguess ======
+Train Accuracy: 0.972472 Test Accuracy: 0.959484
+Train Accuracy: 0.975133 Test Accuracy: 0.956722
+Train Accuracy: 0.974314 Test Accuracy: 0.953959
+Train Accuracy: 0.974826 Test Accuracy: 0.966851
+Train Accuracy: 0.973291 Test Accuracy: 0.962247
+Train Accuracy: 0.973393 Test Accuracy: 0.956722
+Train Accuracy: 0.972472 Test Accuracy: 0.965930
+Train Accuracy: 0.976156 Test Accuracy: 0.962247
+Train Accuracy: 0.974931 Test Accuracy: 0.960369
+Train Accuracy: 0.975340 Test Accuracy: 0.960369
+[MLP - outguess] Average Train Accuracy: 0.974233
+[MLP - outguess] Average Test Accuracy: 0.960490
+Loading(0.6)...
+Loaded!
+len(features): 10858
+====== MLP - outguess ======
+Train Accuracy: 0.977180 Test Accuracy: 0.962247
+Train Accuracy: 0.978817 Test Accuracy: 0.963168
+Train Accuracy: 0.979226 Test Accuracy: 0.956722
+Train Accuracy: 0.976566 Test Accuracy: 0.965930
+Train Accuracy: 0.976566 Test Accuracy: 0.965930
+Train Accuracy: 0.977487 Test Accuracy: 0.970534
+Train Accuracy: 0.976668 Test Accuracy: 0.968692
+Train Accuracy: 0.976668 Test Accuracy: 0.961326
+Train Accuracy: 0.979638 Test Accuracy: 0.967742
+Train Accuracy: 0.979024 Test Accuracy: 0.960369
+[MLP - outguess] Average Train Accuracy: 0.977784
+[MLP - outguess] Average Test Accuracy: 0.964266
+Loading(0.7)...
+Loaded!
+len(features): 10858
+====== MLP - outguess ======
+Train Accuracy: 0.980454 Test Accuracy: 0.962247
+Train Accuracy: 0.980147 Test Accuracy: 0.962247
+Train Accuracy: 0.979738 Test Accuracy: 0.965930
+Train Accuracy: 0.977896 Test Accuracy: 0.968692
+Train Accuracy: 0.978510 Test Accuracy: 0.972376
+Train Accuracy: 0.977998 Test Accuracy: 0.973297
+Train Accuracy: 0.979431 Test Accuracy: 0.970534
+Train Accuracy: 0.978817 Test Accuracy: 0.968692
+Train Accuracy: 0.980047 Test Accuracy: 0.966820
+Train Accuracy: 0.980354 Test Accuracy: 0.964055
+[MLP - outguess] Average Train Accuracy: 0.979339
+[MLP - outguess] Average Test Accuracy: 0.967489
+Loading(0.8)...
+Loaded!
+len(features): 10858
+====== MLP - outguess ======
+Train Accuracy: 0.976770 Test Accuracy: 0.970534
+Train Accuracy: 0.978817 Test Accuracy: 0.965009
+Train Accuracy: 0.980659 Test Accuracy: 0.963168
+Train Accuracy: 0.976873 Test Accuracy: 0.972376
+Train Accuracy: 0.979124 Test Accuracy: 0.967772
+Train Accuracy: 0.983013 Test Accuracy: 0.966851
+Train Accuracy: 0.979022 Test Accuracy: 0.971455
+Train Accuracy: 0.979533 Test Accuracy: 0.970534
+Train Accuracy: 0.977489 Test Accuracy: 0.972350
+Train Accuracy: 0.977898 Test Accuracy: 0.964055
+[MLP - outguess] Average Train Accuracy: 0.978920
+[MLP - outguess] Average Test Accuracy: 0.968410
+Loading(0.9)...
+Loaded!
+len(features): 10858
+====== MLP - outguess ======
+Train Accuracy: 0.981785 Test Accuracy: 0.965930
+Train Accuracy: 0.981580 Test Accuracy: 0.968692
+Train Accuracy: 0.982194 Test Accuracy: 0.962247
+Train Accuracy: 0.980761 Test Accuracy: 0.975138
+Train Accuracy: 0.980045 Test Accuracy: 0.973297
+Train Accuracy: 0.981785 Test Accuracy: 0.970534
+Train Accuracy: 0.981478 Test Accuracy: 0.974217
+Train Accuracy: 0.979840 Test Accuracy: 0.972376
+Train Accuracy: 0.980661 Test Accuracy: 0.971429
+Train Accuracy: 0.980763 Test Accuracy: 0.966820
+[MLP - outguess] Average Train Accuracy: 0.981089
+[MLP - outguess] Average Test Accuracy: 0.970068
+Loading(1.0)...
+Loaded!
+len(features): 10858
+====== MLP - outguess ======
+Train Accuracy: 0.980659 Test Accuracy: 0.966851
+Train Accuracy: 0.980352 Test Accuracy: 0.971455
+Train Accuracy: 0.981887 Test Accuracy: 0.963168
+Train Accuracy: 0.977896 Test Accuracy: 0.971455
+Train Accuracy: 0.981785 Test Accuracy: 0.972376
+Train Accuracy: 0.980454 Test Accuracy: 0.977901
+Train Accuracy: 0.981887 Test Accuracy: 0.976059
+Train Accuracy: 0.980966 Test Accuracy: 0.976059
+Train Accuracy: 0.982298 Test Accuracy: 0.973272
+Train Accuracy: 0.981070 Test Accuracy: 0.966820
+[MLP - outguess] Average Train Accuracy: 0.980925
+[MLP - outguess] Average Test Accuracy: 0.971541
+[0.10000000000000001, 0.20000000000000001, 0.29999999999999999, 0.40000000000000002, 0.5, 0.59999999999999998, 0.69999999999999996, 0.80000000000000004, 0.90000000000000002, 1.0]
+[0.83615822661269112, 0.92687374290297109, 0.9450174402321968, 0.95689809982092977, 0.96048993898040425, 0.96426594020249345, 0.96748903090018756, 0.96841035041712276, 0.97006797871527861, 0.97154144495081929]
