@@ -1,0 +1,142 @@
+Loading(0.1)...
+Loaded!
+====== SVM ======
+Accuracy: 0.497217
+Accuracy: 0.498145
+Accuracy: 0.495362
+Accuracy: 0.495362
+Accuracy: 0.494434
+Accuracy: 0.482375
+Accuracy: 0.491179
+Accuracy: 0.490251
+Accuracy: 0.484680
+Accuracy: 0.483751
+[SVM] Average Accuracy: 0.491275
+Loading(0.2)...
+Loaded!
+====== SVM ======
+Accuracy: 0.497217
+Accuracy: 0.498145
+Accuracy: 0.495362
+Accuracy: 0.495362
+Accuracy: 0.494434
+Accuracy: 0.482375
+Accuracy: 0.491179
+Accuracy: 0.490251
+Accuracy: 0.484680
+Accuracy: 0.483751
+[SVM] Average Accuracy: 0.491275
+Loading(0.3)...
+Loaded!
+====== SVM ======
+Accuracy: 0.497217
+Accuracy: 0.498145
+Accuracy: 0.495362
+Accuracy: 0.495362
+Accuracy: 0.494434
+Accuracy: 0.482375
+Accuracy: 0.491179
+Accuracy: 0.490251
+Accuracy: 0.484680
+Accuracy: 0.483751
+[SVM] Average Accuracy: 0.491275
+Loading(0.4)...
+Loaded!
+====== SVM ======
+Accuracy: 0.497217
+Accuracy: 0.498145
+Accuracy: 0.495362
+Accuracy: 0.495362
+Accuracy: 0.494434
+Accuracy: 0.482375
+Accuracy: 0.491179
+Accuracy: 0.490251
+Accuracy: 0.484680
+Accuracy: 0.483751
+[SVM] Average Accuracy: 0.491275
+Loading(0.5)...
+Loaded!
+====== SVM ======
+Accuracy: 0.497217
+Accuracy: 0.498145
+Accuracy: 0.495362
+Accuracy: 0.495362
+Accuracy: 0.494434
+Accuracy: 0.482375
+Accuracy: 0.491179
+Accuracy: 0.490251
+Accuracy: 0.484680
+Accuracy: 0.483751
+[SVM] Average Accuracy: 0.491275
+Loading(0.6)...
+Loaded!
+====== SVM ======
+Accuracy: 0.497217
+Accuracy: 0.498145
+Accuracy: 0.495362
+Accuracy: 0.495362
+Accuracy: 0.494434
+Accuracy: 0.482375
+Accuracy: 0.491179
+Accuracy: 0.490251
+Accuracy: 0.484680
+Accuracy: 0.483751
+[SVM] Average Accuracy: 0.491275
+Loading(0.7)...
+Loaded!
+====== SVM ======
+Accuracy: 0.497217
+Accuracy: 0.498145
+Accuracy: 0.495362
+Accuracy: 0.495362
+Accuracy: 0.494434
+Accuracy: 0.482375
+Accuracy: 0.491179
+Accuracy: 0.490251
+Accuracy: 0.484680
+Accuracy: 0.483751
+[SVM] Average Accuracy: 0.491275
+Loading(0.8)...
+Loaded!
+====== SVM ======
+Accuracy: 0.497217
+Accuracy: 0.498145
+Accuracy: 0.495362
+Accuracy: 0.495362
+Accuracy: 0.494434
+Accuracy: 0.482375
+Accuracy: 0.491179
+Accuracy: 0.490251
+Accuracy: 0.484680
+Accuracy: 0.483751
+[SVM] Average Accuracy: 0.491275
+Loading(0.9)...
+Loaded!
+====== SVM ======
+Accuracy: 0.497217
+Accuracy: 0.498145
+Accuracy: 0.495362
+Accuracy: 0.495362
+Accuracy: 0.494434
+Accuracy: 0.482375
+Accuracy: 0.491179
+Accuracy: 0.490251
+Accuracy: 0.484680
+Accuracy: 0.483751
+[SVM] Average Accuracy: 0.491275
+Loading(1.0)...
+Loaded!
+====== SVM ======
+Accuracy: 0.497217
+Accuracy: 0.498145
+Accuracy: 0.495362
+Accuracy: 0.495362
+Accuracy: 0.494434
+Accuracy: 0.482375
+Accuracy: 0.491179
+Accuracy: 0.490251
+Accuracy: 0.484680
+Accuracy: 0.483751
+[SVM] Average Accuracy: 0.491275
+[0.10000000000000001, 0.20000000000000001, 0.29999999999999999, 0.40000000000000002, 0.5, 0.59999999999999998, 0.69999999999999996, 0.80000000000000004, 0.90000000000000002, 1.0]
+[0.49127549728425179, 0.49127549728425179, 0.49127549728425179, 0.49127549728425179, 0.49127549728425179, 0.49127549728425179, 0.49127549728425179, 0.49127549728425179, 0.49127549728425179, 0.49127549728425179]

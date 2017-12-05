@@ -1,0 +1,142 @@
+Loading(0.1)...
+Loaded!
+====== MLP ======
+Accuracy: 0.227273
+Accuracy: 0.205937
+Accuracy: 0.222635
+Accuracy: 0.215213
+Accuracy: 0.231911
+Accuracy: 0.233766
+Accuracy: 0.214485
+Accuracy: 0.217270
+Accuracy: 0.229341
+Accuracy: 0.233983
+[MLP] Average Accuracy: 0.223181
+Loading(0.2)...
+Loaded!
+====== MLP ======
+Accuracy: 0.223562
+Accuracy: 0.226345
+Accuracy: 0.221707
+Accuracy: 0.233766
+Accuracy: 0.237477
+Accuracy: 0.244898
+Accuracy: 0.231198
+Accuracy: 0.230269
+Accuracy: 0.234912
+Accuracy: 0.241411
+[MLP] Average Accuracy: 0.232555
+Loading(0.3)...
+Loaded!
+====== MLP ======
+Accuracy: 0.228200
+Accuracy: 0.229128
+Accuracy: 0.228200
+Accuracy: 0.238404
+Accuracy: 0.240260
+Accuracy: 0.244898
+Accuracy: 0.226555
+Accuracy: 0.243268
+Accuracy: 0.243268
+Accuracy: 0.235840
+[MLP] Average Accuracy: 0.235802
+Loading(0.4)...
+Loaded!
+====== MLP ======
+Accuracy: 0.223562
+Accuracy: 0.221707
+Accuracy: 0.238404
+Accuracy: 0.233766
+Accuracy: 0.250464
+Accuracy: 0.251391
+Accuracy: 0.235840
+Accuracy: 0.241411
+Accuracy: 0.245125
+Accuracy: 0.244197
+[MLP] Average Accuracy: 0.238587
+Loading(0.5)...
+Loaded!
+====== MLP ======
+Accuracy: 0.227273
+Accuracy: 0.218924
+Accuracy: 0.229128
+Accuracy: 0.243043
+Accuracy: 0.254174
+Accuracy: 0.253247
+Accuracy: 0.222841
+Accuracy: 0.242340
+Accuracy: 0.246982
+Accuracy: 0.266481
+[MLP] Average Accuracy: 0.240443
+Loading(0.6)...
+Loaded!
+====== MLP ======
+Accuracy: 0.227273
+Accuracy: 0.216141
+Accuracy: 0.237477
+Accuracy: 0.242115
+Accuracy: 0.251391
+Accuracy: 0.253247
+Accuracy: 0.229341
+Accuracy: 0.239554
+Accuracy: 0.246054
+Accuracy: 0.250696
+[MLP] Average Accuracy: 0.239329
+Loading(0.7)...
+Loaded!
+====== MLP ======
+Accuracy: 0.226345
+Accuracy: 0.213358
+Accuracy: 0.238404
+Accuracy: 0.261596
+Accuracy: 0.250464
+Accuracy: 0.259740
+Accuracy: 0.235840
+Accuracy: 0.242340
+Accuracy: 0.249768
+Accuracy: 0.264624
+[MLP] Average Accuracy: 0.244248
+Loading(0.8)...
+Loaded!
+====== MLP ======
+Accuracy: 0.219852
+Accuracy: 0.226345
+Accuracy: 0.242115
+Accuracy: 0.264378
+Accuracy: 0.258813
+Accuracy: 0.258813
+Accuracy: 0.230269
+Accuracy: 0.255339
+Accuracy: 0.257196
+Accuracy: 0.256267
+[MLP] Average Accuracy: 0.246939
+Loading(0.9)...
+Loaded!
+====== MLP ======
+Accuracy: 0.228200
+Accuracy: 0.229128
+Accuracy: 0.245826
+Accuracy: 0.252319
+Accuracy: 0.259740
+Accuracy: 0.256030
+Accuracy: 0.233055
+Accuracy: 0.262767
+Accuracy: 0.253482
+Accuracy: 0.251625
+[MLP] Average Accuracy: 0.247217
+Loading(1.0)...
+Loaded!
+====== MLP ======
+Accuracy: 0.245826
+Accuracy: 0.220779
+Accuracy: 0.245826
+Accuracy: 0.254174
+Accuracy: 0.265306
+Accuracy: 0.252319
+Accuracy: 0.248839
+Accuracy: 0.249768
+Accuracy: 0.254410
+Accuracy: 0.258124
+[MLP] Average Accuracy: 0.249537
+[0.10000000000000001, 0.20000000000000001, 0.29999999999999999, 0.40000000000000002, 0.5, 0.59999999999999998, 0.69999999999999996, 0.80000000000000004, 0.90000000000000002, 1.0]
+[0.22318136168116273, 0.23255452598866846, 0.23580231282181141, 0.23858688068795511, 0.24044328797611728, 0.23932890958358533, 0.24424791947672969, 0.24693868937800492, 0.24721715477783923, 0.2495372116939964]
